@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NBA中国官方网站 | 排名</title>
+    <link rel=" stylesheet" href="../css/normalize.css">
+    <link rel=" stylesheet" href="../css/rank.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-wrap">
+            <div class="header-main">
+                <div class="header-logo">
+                    <a href="/">
+                        <img src="../img/nba-icon.webp">
+                    </a>
+                </div>
+                <div class="header-button">
+                    <a href="/">
+                        <img src="../img/app.webp" width="70">
+                    </a>
+                </div>
+            </div>
+            <div class="header-menu">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="../index.html">首页</a></li>
+                        <li><a href="/">视频</a></li>
+                        <li><a href="/">新闻</a></li>
+                        <li><a href="/">图集</a></li>
+                        <li>
+                            <a href="/">球队</a>
+                            <div class="team">
+                                <ul class="east-team">
+                                    <li class="team-title">东部联盟</li>
+                                    <li class="team-area gray">
+                                        <span>东南赛区</span>
+                                        <span>中部赛区</span>
+                                        <span>大西洋赛区</span>
+                                    </li>
+                                    <li class="team-list">
+                                        <a href="/" style="background-position: 35px -922px;">黄蜂</a>
+                                        <a href="/" style="background-position: 38px -492px;">骑士</a>
+                                        <a href="/" style="background-position: 36px -330px;">猛龙</a>
+                                    </li>
+                                    <li class="team-list gray">
+                                        <a href="/" style="background-position: 37px -839px;">老鹰</a>
+                                        <a href="/" style="background-position: 41px -418px;">公牛</a>
+                                        <a href="/" style="background-position: 37px -167px;">尼克斯</a>
+                                    </li>
+                                    <li class="team-list">
+                                        <a href="/" style="background-position: 39px -1170px;">奇才</a>
+                                        <a href="/" style="background-position: 37px -572px;">活塞</a>
+                                        <a href="/" style="background-position: 38px -8px;">凯尔特人</a>
+                                    </li>
+                                    <li class="team-list gray">
+                                        <a href="/" style="background-position: 36px -1084px;">魔术</a>
+                                        <a href="/" style="background-position: 37px -651px;">步行者</a>
+                                        <a href="/" style="background-position: 38px -93px;">篮网</a>
+                                    </li>
+                                    <li class="team-list">
+                                        <a href="/" style="background-position: 37px -1006px;">热火</a>
+                                        <a href="/" style="background-position: 39px -740px;">雄鹿</a>
+                                        <a href="/" style="background-position: 39px -248px;">76人</a>
+                                    </li>
+                                </ul>
+                                <ul class="west-team">
+                                    <li class="team-title">西部联盟</li>
+                                    <li class="team-area gray">
+                                        <span>太平洋赛区</span>
+                                        <span>西北赛区</span>
+                                        <span>西南赛区</span>
+                                    </li>
+                                    <li class="team-list">
+                                        <a href="/" style="background-position: 38px -1667px;">勇士</a>
+                                        <a href="/" style="background-position: 38px -1579px;">爵士</a>
+                                        <a href="/" style="background-position: 38px -2461px;">马刺</a>
+                                    </li>
+                                    <li class="team-list gray">
+                                        <a href="/" style="background-position: 36px -1756px;">快船</a>
+                                        <a href="/" style="background-position: 38px -1415px;">雷霆</a>
+                                        <a href="/" style="background-position: 37px -2213px;">火箭</a>
+                                    </li>
+                                    <li class="team-list">
+                                        <a href="/" style="background-position: 39px -2032px;">国王</a>
+                                        <a href="/" style="background-position: 38px -1499px;">开拓者</a>
+                                        <a href="/" style="background-position: 38px -2292px;">灰熊</a>
+                                    </li>
+                                    <li class="team-list gray">
+                                        <a href="/" style="background-position: 38px -1847px;">湖人</a>
+                                        <a href="/" style="background-position: 37px -1251px;">掘金</a>
+                                        <a href="/" style="background-position: 37px -2373px;">鹈鹕</a>
+                                    </li>
+                                    <li class="team-list">
+                                        <a href="/" style="background-position: 39px -1936px;">太阳</a>
+                                        <a href="/" style="background-position: 39px -1936px;">森林狼</a>
+                                        <a href="/" style="background-position: 38px -2122px;">独行侠</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="/">球员</a>
+                            <ul>
+                                <li><a href="/">现役球员</a></li>
+                                <li><a href="/">退役球员</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/">赛程</a>
+                            <ul>
+                                <li><a href="/">赛程</a></li>
+                                <li><a href="/">季后赛</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/">排名</a>
+                            <ul>
+                                <li><a href="rank.html">联盟排名</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/">数据</a>
+                            <ul>
+                                <li><a href="/">球员数据</a></li>
+                                <li><a href="/">球队数据</a></li>
+                                <li><a href="/">高级球队数据</a></li>
+                                <li><a href="/">联盟数据王</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/">专题</a>
+                            <ul>
+                                <li><a href="/">NBA休赛期观察</a></li>
+                                <li><a href="/">NBA历史</a></li>
+                                <li><a href="/">NBA50大球星</a></li>
+                                <li><a href="/">NBA扣响盛夏</a></li>
+                                <li><a href="/">犯规手册</a></li>
+                                <li><a href="faq.html">NBA知识Q&amp;A</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/">不止篮球</a></li>
+                        <li><a href="/">NBA就职</a></li>
+                    </ul>
+                </div>
+                <div class="menu-2">
+                    <div class="user-head">
+                        <img src="../img/icon_30_user_f91522.webp">
+                    </div>
+                    <ul class="user-menu"">
+                        <li class=" user-info">您好~请您登录</li>
+                        <li class="user-login"><span>登录</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-header">
+        <div class="fix">
+            <div class="fix-1">
+                <a href="/">
+                    <img src="../img/fixed-nav-logo.webp">
+                </a>
+            </div>
+            <div class="fix-2">
+                <ul>
+                    <li><a href="../index.html">首页</a></li>
+                    <li><a href="/">视频</a></li>
+                    <li><a href="/">新闻</a></li>
+                    <li><a href="/">图集</a></li>
+                    <li>
+                        <a href="/">球队</a>
+                        <div class="team">
+                            <ul class="east-team">
+                                <li class="team-title">东部联盟</li>
+                                <li class="team-area gray">
+                                    <span>东南赛区</span>
+                                    <span>中部赛区</span>
+                                    <span>大西洋赛区</span>
+                                </li>
+                                <li class="team-list">
+                                    <a href="/">黄蜂</a>
+                                    <a href="/">骑士</a>
+                                    <a href="/">猛龙</a>
+                                </li>
+                                <li class="team-list gray">
+                                    <a href="/">老鹰</a>
+                                    <a href="/">公牛</a>
+                                    <a href="/">尼克斯</a>
+                                </li>
+                                <li class="team-list">
+                                    <a href="/">奇才</a>
+                                    <a href="/">活塞</a>
+                                    <a href="/">凯尔特人</a>
+                                </li>
+                                <li class="team-list gray">
+                                    <a href="/">魔术</a>
+                                    <a href="/">步行者</a>
+                                    <a href="/">篮网</a>
+                                </li>
+                                <li class="team-list">
+                                    <a href="/">热火</a>
+                                    <a href="/">雄鹿</a>
+                                    <a href="/">76人</a>
+                                </li>
+                            </ul>
+                            <ul class="west-team">
+                                <li class="team-title">西部联盟</li>
+                                <li class="team-area gray">
+                                    <span>太平洋赛区</span>
+                                    <span>西北赛区</span>
+                                    <span>西南赛区</span>
+                                </li>
+                                <li class="team-list">
+                                    <a href="/">勇士</a>
+                                    <a href="/">爵士</a>
+                                    <a href="/">马刺</a>
+                                </li>
+                                <li class="team-list gray">
+                                    <a href="/">快船</a>
+                                    <a href="/">雷霆</a>
+                                    <a href="/">火箭</a>
+                                </li>
+                                <li class="team-list">
+                                    <a href="/">国王</a>
+                                    <a href="/">开拓者</a>
+                                    <a href="/">灰熊</a>
+                                </li>
+                                <li class="team-list gray">
+                                    <a href="/">湖人</a>
+                                    <a href="/">掘金</a>
+                                    <a href="/">鹈鹕</a>
+                                </li>
+                                <li class="team-list">
+                                    <a href="/">太阳</a>
+                                    <a href="/">森林狼</a>
+                                    <a href="/">独行侠</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="/">球员</a>
+                        <ul>
+                            <li><a href="/">现役球员</a></li>
+                            <li><a href="/">退役球员</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/">赛程</a>
+                        <ul>
+                            <li><a href="/">赛程</a></li>
+                            <li><a href="/">季后赛</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/">排名</a>
+                        <ul>
+                            <li><a href="rank.html">联盟排名</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/">数据</a>
+                        <ul>
+                            <li><a href="/">球员数据</a></li>
+                            <li><a href="/">球队数据</a></li>
+                            <li><a href="/">高级球队数据</a></li>
+                            <li><a href="/">联盟数据王</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/">专题</a>
+                        <ul>
+                            <li><a href="/">NBA休赛期观察</a></li>
+                            <li><a href="/">NBA历史</a></li>
+                            <li><a href="/">NBA50大球星</a></li>
+                            <li><a href="/">NBA扣响盛夏</a></li>
+                            <li><a href="/">犯规手册</a></li>
+                            <li><a href="faq.html">NBA知识Q&amp;A</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/">不止篮球</a></li>
+                    <li><a href="/">NBA就职</a></li>
+                </ul>
+            </div>
+            <div class="fix-3">
+                <div class="user-head">
+                    <img src="../img/icon_30_user_f91522.webp">
+                </div>
+                <ul class="user-menu">
+                    <li class=" user-info">您好~请您登录</li>
+                    <li class="user-login"><span>登录</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="m-content">
+        <div class="page-header ng-scope">
+            <div class="content-left">
+                <span class="breadcrumb ng-binding">首页/排名</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="sib-table-container">
+                    <div class="table-title desktop">
+                        <div class="title">
+                            <span>
+                                <span class="ng-binding">2021-2022 常规赛</span>
+                                <span>联盟排名</span>
+                            </span>
+                        </div>
+                        <div class="table-toggle">
+                            <div><span>联盟</span></div>
+                            <div><span>分区</span></div>
+                        </div>
+                        <!-- <div class="sib3-table-categories">
+              <span class="red">排名</span>
+              <span>最近10场&连续成绩</span>
+              <span>分差&统计</span>
+              <span>领先&落后</span>
+            </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="desktop ng-scope">
+            <div class="m-bd1">
+                <div class="nba-stat-table__caption">
+                    <span>东部联盟</span>
+                </div>
+                <div class="nba-stat-table conference">
+                    <div class="nba-stat-table__overflow">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">排名</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>姓名</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">胜</td>
+                                    <td class="nobr center bold ng-binding">负</td>
+                                    <td class="nobr center bold desktop ng-binding">胜率</td>
+                                    <td class="nobr center bold ng-binding">胜场差</td>
+                                    <td class="nobr center bold ng-binding ng-hide">联盟</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">主场</td>
+                                    <td class="nobr center bold desktop ng-binding">客场</td>
+                                    <td class="nobr center bold desktop ng-binding">最近10场</td>
+                                    <td class="nobr center bold desktop ng-binding">连续成绩</td>
+                                    <td class="nobr center bold desktop ng-binding">得分/场</td>
+                                    <td class="nobr center bold desktop ng-binding">场均失分</td>
+                                    <td class="nobr center bold desktop ng-binding">差距</td>
+                                    <!-- <td class="rank nobr center sorted asc">排名</td>
+                  <td></td>
+                  <td class="nobr player center desktop">姓名</td>
+                  <td class="nobr center">胜</td>
+                  <td class="nobr center">负</td>
+                  <td class="nobr center desktop">胜率</td>
+                  <td class="nobr center">胜场差</td>
+                  <td class="nobr center desktop">联盟</td>
+                  <td class="nobr center desktop ng-hide">分区</td>
+                  <td class="nobr center desktop">主场</td>
+                  <td class="nobr center desktop">客场</td>
+                  <td class="nobr center desktop">最近10场</td>
+                  <td class="nobr center desktop">连续成绩</td>
+                  <td class="nobr center desktop">得分/场</td>
+                  <td class="nobr center desktop">场均失分</td>
+                  <td class="nobr center desktop">差距</td> -->
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">01</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/MIA_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>e-迈阿密 热火</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">53</td>
+                                    <td class="nobr center bold ng-binding">29</td>
+                                    <td class="nobr center bold desktop ng-binding">64.6</td>
+                                    <td class="nobr center bold ng-binding">0</td>
+                                    <td class="nobr center bold desktop ng-binding">35-17</td>
+                                    <td class="nobr center bold desktop ng-binding">29-12</td>
+                                    <td class="nobr center bold desktop ng-binding">24-17</td>
+                                    <td class="nobr center bold desktop ng-binding">6-4</td>
+                                    <td class="nobr center bold desktop ng-binding">负 1</td>
+                                    <td class="nobr center bold desktop ng-binding">110.0</td>
+                                    <td class="nobr center bold desktop ng-binding">105.6</td>
+                                    <td class="nobr center bold desktop ng-binding">4.4</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">02</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/BOS_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>a-波士顿 凯尔特人</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">51</td>
+                                    <td class="nobr center bold ng-binding">31</td>
+                                    <td class="nobr center bold desktop ng-binding">62.2</td>
+                                    <td class="nobr center bold ng-binding">2</td>
+                                    <td class="nobr center bold desktop ng-binding">33-19</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">28-13</td>
+                                    <td class="nobr center bold desktop ng-binding">23-18</td>
+                                    <td class="nobr center bold desktop ng-binding">7-3</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 1</td>
+                                    <td class="nobr center bold desktop ng-binding">110.8</td>
+                                    <td class="nobr center bold desktop ng-binding">104.5</td>
+                                    <td class="nobr center bold desktop ng-binding">7.3</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">03</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/MIL_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>c-密尔沃基 雄鹿</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">51</td>
+                                    <td class="nobr center bold ng-binding">31</td>
+                                    <td class="nobr center bold desktop ng-binding">62.2</td>
+                                    <td class="nobr center bold ng-binding">2</td>
+                                    <td class="nobr center bold desktop ng-binding">33-19</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">27-14</td>
+                                    <td class="nobr center bold desktop ng-binding">24-17</td>
+                                    <td class="nobr center bold desktop ng-binding">6-4</td>
+                                    <td class="nobr center bold desktop ng-binding">负 1</td>
+                                    <td class="nobr center bold desktop ng-binding">115.5</td>
+                                    <td class="nobr center bold desktop ng-binding">112.1</td>
+                                    <td class="nobr center bold desktop ng-binding">3.4</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">04</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/PHI_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>x-费城 76人</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">51</td>
+                                    <td class="nobr center bold ng-binding">31</td>
+                                    <td class="nobr center bold desktop ng-binding">62.2</td>
+                                    <td class="nobr center bold ng-binding">2</td>
+                                    <td class="nobr center bold desktop ng-binding">32-20</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">24-17</td>
+                                    <td class="nobr center bold desktop ng-binding">27-14</td>
+                                    <td class="nobr center bold desktop ng-binding">6-4</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 2</td>
+                                    <td class="nobr center bold desktop ng-binding">109.9</td>
+                                    <td class="nobr center bold desktop ng-binding">107.3</td>
+                                    <td class="nobr center bold desktop ng-binding">2.6</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">05</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/TOR_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>x-多伦多 猛龙</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">48</td>
+                                    <td class="nobr center bold ng-binding">34</td>
+                                    <td class="nobr center bold desktop ng-binding">58.5</td>
+                                    <td class="nobr center bold ng-binding">5</td>
+                                    <td class="nobr center bold desktop ng-binding">30-22</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">24-17</td>
+                                    <td class="nobr center bold desktop ng-binding">24-17</td>
+                                    <td class="nobr center bold desktop ng-binding">8-2</td>
+                                    <td class="nobr center bold desktop ng-binding">负 1</td>
+                                    <td class="nobr center bold desktop ng-binding">109.4</td>
+                                    <td class="nobr center bold desktop ng-binding">107.1</td>
+                                    <td class="nobr center bold desktop ng-binding">2.3</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">06</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/CHI_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>x-芝加哥 公牛</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">46</td>
+                                    <td class="nobr center bold ng-binding">36</td>
+                                    <td class="nobr center bold desktop ng-binding">56.1</td>
+                                    <td class="nobr center bold ng-binding">7</td>
+                                    <td class="nobr center bold desktop ng-binding">29-23</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">27-14</td>
+                                    <td class="nobr center bold desktop ng-binding">19-22</td>
+                                    <td class="nobr center bold desktop ng-binding">4-6</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 1</td>
+                                    <td class="nobr center bold desktop ng-binding">111.6</td>
+                                    <td class="nobr center bold desktop ng-binding">112.0</td>
+                                    <td class="nobr center bold desktop ng-binding">-0.4</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">07</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/BKN_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>布鲁克林 篮网</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">44</td>
+                                    <td class="nobr center bold ng-binding">38</td>
+                                    <td class="nobr center bold desktop ng-binding">53.7</td>
+                                    <td class="nobr center bold ng-binding">9</td>
+                                    <td class="nobr center bold desktop ng-binding">31-21</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">20-21</td>
+                                    <td class="nobr center bold desktop ng-binding">24-17</td>
+                                    <td class="nobr center bold desktop ng-binding">6-4</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 4</td>
+                                    <td class="nobr center bold desktop ng-binding">112.9</td>
+                                    <td class="nobr center bold desktop ng-binding">112.1</td>
+                                    <td class="nobr center bold desktop ng-binding">0.8</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">08</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/ATL_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>亚特兰大 老鹰</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">43</td>
+                                    <td class="nobr center bold ng-binding">39</td>
+                                    <td class="nobr center bold desktop ng-binding">52.4</td>
+                                    <td class="nobr center bold ng-binding">10</td>
+                                    <td class="nobr center bold desktop ng-binding">26-26</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">27-14</td>
+                                    <td class="nobr center bold desktop ng-binding">16-25</td>
+                                    <td class="nobr center bold desktop ng-binding">7-3</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 1</td>
+                                    <td class="nobr center bold desktop ng-binding">113.9</td>
+                                    <td class="nobr center bold desktop ng-binding">112.4</td>
+                                    <td class="nobr center bold desktop ng-binding">1.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">09</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/CLE_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>克利夫兰 骑士</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">44</td>
+                                    <td class="nobr center bold ng-binding">38</td>
+                                    <td class="nobr center bold desktop ng-binding">53.7</td>
+                                    <td class="nobr center bold ng-binding">9</td>
+                                    <td class="nobr center bold desktop ng-binding">27-25</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">25-16</td>
+                                    <td class="nobr center bold desktop ng-binding">19-22</td>
+                                    <td class="nobr center bold desktop ng-binding">3-7</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 1</td>
+                                    <td class="nobr center bold desktop ng-binding">107.8</td>
+                                    <td class="nobr center bold desktop ng-binding">105.7</td>
+                                    <td class="nobr center bold desktop ng-binding">2.1</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">10</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/CHA_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>夏洛特 黄蜂</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">43</td>
+                                    <td class="nobr center bold ng-binding">39</td>
+                                    <td class="nobr center bold desktop ng-binding">52.4</td>
+                                    <td class="nobr center bold ng-binding">10</td>
+                                    <td class="nobr center bold desktop ng-binding">27-25</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">22-19</td>
+                                    <td class="nobr center bold desktop ng-binding">21-20</td>
+                                    <td class="nobr center bold desktop ng-binding">6-4</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 3</td>
+                                    <td class="nobr center bold desktop ng-binding">115.3</td>
+                                    <td class="nobr center bold desktop ng-binding">114.9</td>
+                                    <td class="nobr center bold desktop ng-binding">0.4</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">11</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/NYK_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>o-纽约 尼克斯</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">37</td>
+                                    <td class="nobr center bold ng-binding">45</td>
+                                    <td class="nobr center bold desktop ng-binding">45.1</td>
+                                    <td class="nobr center bold ng-binding">16</td>
+                                    <td class="nobr center bold desktop ng-binding">22-30</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">17-24</td>
+                                    <td class="nobr center bold desktop ng-binding">20-21</td>
+                                    <td class="nobr center bold desktop ng-binding">7-3</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 2</td>
+                                    <td class="nobr center bold desktop ng-binding">106.5</td>
+                                    <td class="nobr center bold desktop ng-binding">106.6</td>
+                                    <td class="nobr center bold desktop ng-binding">-0.1</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">12</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/WAS_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>o-华盛顿 奇才</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">35</td>
+                                    <td class="nobr center bold ng-binding">47</td>
+                                    <td class="nobr center bold desktop ng-binding">42.7</td>
+                                    <td class="nobr center bold ng-binding">18</td>
+                                    <td class="nobr center bold desktop ng-binding">24-28</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">21-20</td>
+                                    <td class="nobr center bold desktop ng-binding">14-27</td>
+                                    <td class="nobr center bold desktop ng-binding">5-5</td>
+                                    <td class="nobr center bold desktop ng-binding">负 3</td>
+                                    <td class="nobr center bold desktop ng-binding">108.6</td>
+                                    <td class="nobr center bold desktop ng-binding">112.0</td>
+                                    <td class="nobr center bold desktop ng-binding">-3.4</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">13</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/IND_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>o-印第安纳 步行者</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">25</td>
+                                    <td class="nobr center bold ng-binding">57</td>
+                                    <td class="nobr center bold desktop ng-binding">30.5</td>
+                                    <td class="nobr center bold ng-binding">28</td>
+                                    <td class="nobr center bold desktop ng-binding">11-41</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">16-25</td>
+                                    <td class="nobr center bold desktop ng-binding">9-32</td>
+                                    <td class="nobr center bold desktop ng-binding">0-10</td>
+                                    <td class="nobr center bold desktop ng-binding">负 10</td>
+                                    <td class="nobr center bold desktop ng-binding">111.5</td>
+                                    <td class="nobr center bold desktop ng-binding">114.9</td>
+                                    <td class="nobr center bold desktop ng-binding">-3.4</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">14</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/DET_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>o-底特律 活塞</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">23</td>
+                                    <td class="nobr center bold ng-binding">59</td>
+                                    <td class="nobr center bold desktop ng-binding">28.0</td>
+                                    <td class="nobr center bold ng-binding">30</td>
+                                    <td class="nobr center bold desktop ng-binding">18-34</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">13-28</td>
+                                    <td class="nobr center bold desktop ng-binding">10-31</td>
+                                    <td class="nobr center bold desktop ng-binding">4-6</td>
+                                    <td class="nobr center bold desktop ng-binding">负 3</td>
+                                    <td class="nobr center bold desktop ng-binding">104.8</td>
+                                    <td class="nobr center bold desktop ng-binding">112.5</td>
+                                    <td class="nobr center bold desktop ng-binding">-7.7</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">15</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/ORL_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>o-奥兰多 魔术</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">22</td>
+                                    <td class="nobr center bold ng-binding">60</td>
+                                    <td class="nobr center bold desktop ng-binding">26.8</td>
+                                    <td class="nobr center bold ng-binding">31</td>
+                                    <td class="nobr center bold desktop ng-binding">12-40</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">12-29</td>
+                                    <td class="nobr center bold desktop ng-binding">10-31</td>
+                                    <td class="nobr center bold desktop ng-binding">3-7</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 1</td>
+                                    <td class="nobr center bold desktop ng-binding">104.2</td>
+                                    <td class="nobr center bold desktop ng-binding">112.2</td>
+                                    <td class="nobr center bold desktop ng-binding">-8.0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="m-bd1">
+                <div class="nba-stat-table__caption">
+                    <span>西部联盟</span>
+                </div>
+                <div class="nba-stat-table conference">
+                    <div class="nba-stat-table__overflow">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">排名</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>姓名</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">胜</td>
+                                    <td class="nobr center bold ng-binding">负</td>
+                                    <td class="nobr center bold desktop ng-binding">胜率</td>
+                                    <td class="nobr center bold ng-binding">胜场差</td>
+                                    <td class="nobr center bold ng-binding ng-hide">联盟</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">主场</td>
+                                    <td class="nobr center bold desktop ng-binding">客场</td>
+                                    <td class="nobr center bold desktop ng-binding">最近10场</td>
+                                    <td class="nobr center bold desktop ng-binding">连续成绩</td>
+                                    <td class="nobr center bold desktop ng-binding">得分/场</td>
+                                    <td class="nobr center bold desktop ng-binding">场均失分</td>
+                                    <td class="nobr center bold desktop ng-binding">差距</td>
+                                    <!-- <td class="rank nobr center sorted asc">排名</td>
+                  <td></td>
+                  <td class="nobr player center desktop">姓名</td>
+                  <td class="nobr center">胜</td>
+                  <td class="nobr center">负</td>
+                  <td class="nobr center desktop">胜率</td>
+                  <td class="nobr center">胜场差</td>
+                  <td class="nobr center desktop">联盟</td>
+                  <td class="nobr center desktop ng-hide">分区</td>
+                  <td class="nobr center desktop">主场</td>
+                  <td class="nobr center desktop">客场</td>
+                  <td class="nobr center desktop">最近10场</td>
+                  <td class="nobr center desktop">连续成绩</td>
+                  <td class="nobr center desktop">得分/场</td>
+                  <td class="nobr center desktop">场均失分</td>
+                  <td class="nobr center desktop">差距</td> -->
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">01</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/PHX_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>w-菲尼克斯 太阳</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">64</td>
+                                    <td class="nobr center bold ng-binding">18</td>
+                                    <td class="nobr center bold desktop ng-binding">78.0</td>
+                                    <td class="nobr center bold ng-binding">0</td>
+                                    <td class="nobr center bold desktop ng-binding">39-13</td>
+                                    <td class="nobr center bold desktop ng-binding">32-9</td>
+                                    <td class="nobr center bold desktop ng-binding">32-9</td>
+                                    <td class="nobr center bold desktop ng-binding">6-4</td>
+                                    <td class="nobr center bold desktop ng-binding">负 1</td>
+                                    <td class="nobr center bold desktop ng-binding">114.8</td>
+                                    <td class="nobr center bold desktop ng-binding">107.3</td>
+                                    <td class="nobr center bold desktop ng-binding">7.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">02</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/MEM_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>sw-孟菲斯 灰熊</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">56</td>
+                                    <td class="nobr center bold ng-binding">26</td>
+                                    <td class="nobr center bold desktop ng-binding">68.3</td>
+                                    <td class="nobr center bold ng-binding">8</td>
+                                    <td class="nobr center bold desktop ng-binding">36-16</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">30-11</td>
+                                    <td class="nobr center bold desktop ng-binding">26-15</td>
+                                    <td class="nobr center bold desktop ng-binding">7-3</td>
+                                    <td class="nobr center bold desktop ng-binding">负 1</td>
+                                    <td class="nobr center bold desktop ng-binding">115.6</td>
+                                    <td class="nobr center bold desktop ng-binding">109.9</td>
+                                    <td class="nobr center bold desktop ng-binding">5.7</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">03</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/GSW_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>x-金州 勇士</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">53</td>
+                                    <td class="nobr center bold ng-binding">29</td>
+                                    <td class="nobr center bold desktop ng-binding">64.6</td>
+                                    <td class="nobr center bold ng-binding">11</td>
+                                    <td class="nobr center bold desktop ng-binding">33-19</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">31-10</td>
+                                    <td class="nobr center bold desktop ng-binding">22-19</td>
+                                    <td class="nobr center bold desktop ng-binding">6-4</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 5</td>
+                                    <td class="nobr center bold desktop ng-binding">111.0</td>
+                                    <td class="nobr center bold desktop ng-binding">105.5</td>
+                                    <td class="nobr center bold desktop ng-binding">5.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">04</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/DAL_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>x-达拉斯 独行侠</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">52</td>
+                                    <td class="nobr center bold ng-binding">30</td>
+                                    <td class="nobr center bold desktop ng-binding">63.4</td>
+                                    <td class="nobr center bold ng-binding">12</td>
+                                    <td class="nobr center bold desktop ng-binding">36-16</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">29-12</td>
+                                    <td class="nobr center bold desktop ng-binding">23-18</td>
+                                    <td class="nobr center bold desktop ng-binding">8-2</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 4</td>
+                                    <td class="nobr center bold desktop ng-binding">108.0</td>
+                                    <td class="nobr center bold desktop ng-binding">104.7</td>
+                                    <td class="nobr center bold desktop ng-binding">3.3</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">05</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/UTA_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>nw-犹他 爵士</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">49</td>
+                                    <td class="nobr center bold ng-binding">33</td>
+                                    <td class="nobr center bold desktop ng-binding">59.8</td>
+                                    <td class="nobr center bold ng-binding">15</td>
+                                    <td class="nobr center bold desktop ng-binding">33-29</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">29-12</td>
+                                    <td class="nobr center bold desktop ng-binding">20-21</td>
+                                    <td class="nobr center bold desktop ng-binding">4-6</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 1</td>
+                                    <td class="nobr center bold desktop ng-binding">113.6</td>
+                                    <td class="nobr center bold desktop ng-binding">107.6</td>
+                                    <td class="nobr center bold desktop ng-binding">6.0</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">06</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/DEN_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>x-丹佛 掘金</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">48</td>
+                                    <td class="nobr center bold ng-binding">34</td>
+                                    <td class="nobr center bold desktop ng-binding">58.5</td>
+                                    <td class="nobr center bold ng-binding">16</td>
+                                    <td class="nobr center bold desktop ng-binding">29-23</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">23-18</td>
+                                    <td class="nobr center bold desktop ng-binding">25-16</td>
+                                    <td class="nobr center bold desktop ng-binding">6-4</td>
+                                    <td class="nobr center bold desktop ng-binding">负 1</td>
+                                    <td class="nobr center bold desktop ng-binding">112.7</td>
+                                    <td class="nobr center bold desktop ng-binding">110.4</td>
+                                    <td class="nobr center bold desktop ng-binding">2.3</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">07</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/MIN_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>明尼苏达 森林狼</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">46</td>
+                                    <td class="nobr center bold ng-binding">36</td>
+                                    <td class="nobr center bold desktop ng-binding">56.1</td>
+                                    <td class="nobr center bold ng-binding">18</td>
+                                    <td class="nobr center bold desktop ng-binding">32-20</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">26-15</td>
+                                    <td class="nobr center bold desktop ng-binding">20-21</td>
+                                    <td class="nobr center bold desktop ng-binding">4-6</td>
+                                    <td class="nobr center bold desktop ng-binding">负 1</td>
+                                    <td class="nobr center bold desktop ng-binding">115.9</td>
+                                    <td class="nobr center bold desktop ng-binding">113.3</td>
+                                    <td class="nobr center bold desktop ng-binding">2.6</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">08</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/NOP_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>新奥尔良 鹈鹕</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">36</td>
+                                    <td class="nobr center bold ng-binding">46</td>
+                                    <td class="nobr center bold desktop ng-binding">43.9</td>
+                                    <td class="nobr center bold ng-binding">28</td>
+                                    <td class="nobr center bold desktop ng-binding">25-27</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">19-22</td>
+                                    <td class="nobr center bold desktop ng-binding">17-24</td>
+                                    <td class="nobr center bold desktop ng-binding">6-4</td>
+                                    <td class="nobr center bold desktop ng-binding">负 2</td>
+                                    <td class="nobr center bold desktop ng-binding">109.3</td>
+                                    <td class="nobr center bold desktop ng-binding">110.3</td>
+                                    <td class="nobr center bold desktop ng-binding">-1.0</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">09</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/LAC_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>洛杉矶 快船</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">42</td>
+                                    <td class="nobr center bold ng-binding">40</td>
+                                    <td class="nobr center bold desktop ng-binding">51.2</td>
+                                    <td class="nobr center bold ng-binding">22</td>
+                                    <td class="nobr center bold desktop ng-binding">26-26</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">25-16</td>
+                                    <td class="nobr center bold desktop ng-binding">17-24</td>
+                                    <td class="nobr center bold desktop ng-binding">6-4</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 5</td>
+                                    <td class="nobr center bold desktop ng-binding">108.4</td>
+                                    <td class="nobr center bold desktop ng-binding">108.4</td>
+                                    <td class="nobr center bold desktop ng-binding">0.0</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">10</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/SAS_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>圣安东尼奥 马刺</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">34</td>
+                                    <td class="nobr center bold ng-binding">48</td>
+                                    <td class="nobr center bold desktop ng-binding">41.5</td>
+                                    <td class="nobr center bold ng-binding">30</td>
+                                    <td class="nobr center bold desktop ng-binding">24-28</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">16-25</td>
+                                    <td class="nobr center bold desktop ng-binding">18-23</td>
+                                    <td class="nobr center bold desktop ng-binding">6-4</td>
+                                    <td class="nobr center bold desktop ng-binding">负 3</td>
+                                    <td class="nobr center bold desktop ng-binding">113.2</td>
+                                    <td class="nobr center bold desktop ng-binding">113.0</td>
+                                    <td class="nobr center bold desktop ng-binding">0.2</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">11</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/LAL_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>o-洛杉矶 湖人</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">33</td>
+                                    <td class="nobr center bold ng-binding">49</td>
+                                    <td class="nobr center bold desktop ng-binding">40.2</td>
+                                    <td class="nobr center bold ng-binding">31</td>
+                                    <td class="nobr center bold desktop ng-binding">18-34</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">21-20</td>
+                                    <td class="nobr center bold desktop ng-binding">12-29</td>
+                                    <td class="nobr center bold desktop ng-binding">2-8</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 2</td>
+                                    <td class="nobr center bold desktop ng-binding">112.1</td>
+                                    <td class="nobr center bold desktop ng-binding">115.1</td>
+                                    <td class="nobr center bold desktop ng-binding">-3.0</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">12</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/SAC_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>o-萨克拉门托 国王</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">30</td>
+                                    <td class="nobr center bold ng-binding">52</td>
+                                    <td class="nobr center bold desktop ng-binding">36.6</td>
+                                    <td class="nobr center bold ng-binding">34</td>
+                                    <td class="nobr center bold desktop ng-binding">20-32</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">16-25</td>
+                                    <td class="nobr center bold desktop ng-binding">14-27</td>
+                                    <td class="nobr center bold desktop ng-binding">5-5</td>
+                                    <td class="nobr center bold desktop ng-binding">胜 1</td>
+                                    <td class="nobr center bold desktop ng-binding">110.3</td>
+                                    <td class="nobr center bold desktop ng-binding">115.8</td>
+                                    <td class="nobr center bold desktop ng-binding">-5.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">13</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/POR_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>o-波特兰 开拓者</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">27</td>
+                                    <td class="nobr center bold ng-binding">55</td>
+                                    <td class="nobr center bold desktop ng-binding">32.9</td>
+                                    <td class="nobr center bold ng-binding">37</td>
+                                    <td class="nobr center bold desktop ng-binding">11-41</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">17-24</td>
+                                    <td class="nobr center bold desktop ng-binding">10-31</td>
+                                    <td class="nobr center bold desktop ng-binding">0-10</td>
+                                    <td class="nobr center bold desktop ng-binding">负 11</td>
+                                    <td class="nobr center bold desktop ng-binding">106.2</td>
+                                    <td class="nobr center bold desktop ng-binding">115.1</td>
+                                    <td class="nobr center bold desktop ng-binding">-8.9</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">14</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/OKC_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>o-俄克拉荷马城 雷霆</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">24</td>
+                                    <td class="nobr center bold ng-binding">58</td>
+                                    <td class="nobr center bold desktop ng-binding">29.3</td>
+                                    <td class="nobr center bold ng-binding">40</td>
+                                    <td class="nobr center bold desktop ng-binding">17-35</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">12-29</td>
+                                    <td class="nobr center bold desktop ng-binding">12-29</td>
+                                    <td class="nobr center bold desktop ng-binding">4-6</td>
+                                    <td class="nobr center bold desktop ng-binding">负 3</td>
+                                    <td class="nobr center bold desktop ng-binding">103.7</td>
+                                    <td class="nobr center bold desktop ng-binding">111.8</td>
+                                    <td class="nobr center bold desktop ng-binding">-8.1</td>
+                                </tr>
+                                <tr>
+                                    <td class="rank nobr bold center sorted">
+                                        <span class="ng-binding">15</span>
+                                    </td>
+                                    <td class="center team-logo">
+                                        <img class="team-img" src="../img/HOU_logo.svg" type="image/svg+xml">
+                                    </td>
+                                    <td class="nobr player desktop">
+                                        <a>o-休斯顿 火箭</a>
+                                    </td>
+                                    <td class="nobr center bold ng-binding">20</td>
+                                    <td class="nobr center bold ng-binding">62</td>
+                                    <td class="nobr center bold desktop ng-binding">24.4</td>
+                                    <td class="nobr center bold ng-binding">44</td>
+                                    <td class="nobr center bold desktop ng-binding">11-41</td>
+                                    <td class="nobr center bold desktop ng-binding ng-hide">11-30</td>
+                                    <td class="nobr center bold desktop ng-binding">9-32</td>
+                                    <td class="nobr center bold desktop ng-binding">2-8</td>
+                                    <td class="nobr center bold desktop ng-binding">负 7</td>
+                                    <td class="nobr center bold desktop ng-binding">109.7</td>
+                                    <td class="nobr center bold desktop ng-binding">118.2</td>
+                                    <td class="nobr center bold desktop ng-binding">-8.5</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row1 standings-glossary-container">
+            <div class="col-sm-12">
+                <div class="sib-standings-glossary standings-glossary ng-scope">
+                    <div ng-hide="showVersionTwo" class="">
+                        <div class="playoff-legend">
+                            <div class="playoff-legend-row">
+                                <span class="legend-icon">x</span> <span class="legend-type"> - <span data-ng-i18next="standingsGlossary.clinchedPlayoffsBerth">取得季后赛资格</span> | </span><span class="legend-icon">e</span> <span class="legend-type"> - <span data-ng-i18next="standingsGlossary.clinchedEasternConference">取得东部季后赛资格</span> | </span><span class="legend-icon">a</span> <span class="legend-type"> - <span data-ng-i18next="standingsGlossary.clinchedAtlanticDivision">取得大西洋赛区冠军</span> | </span><span class="legend-icon">c</span> <span class="legend-type"> - <span data-ng-i18next="standingsGlossary.clinchedCentralDivision">取得中部赛区季后赛资格</span></span>
+                            </div>
+                            <div class="playoff-legend-row">
+                                <span class="legend-icon">se</span> <span class="legend-type"> - <span data-ng-i18next="standingsGlossary.clinchedSoutheastDivision">取得东南赛区季后赛资格</span> | </span><span class="legend-icon">w</span> <span class="legend-type"> - <span data-ng-i18next="standingsGlossary.clinchedWesternConference">取得西部季后赛资格</span> | </span><span class="legend-icon">sw</span> <span class="legend-type"> - <span data-ng-i18next="standingsGlossary.clinchedSouthwestDivision">取得西南赛区季后赛资格</span></span>
+                            </div>
+                            <div class="playoff-legend-row">
+                                <span class="legend-icon">nw</span> <span class="legend-type"> - <span data-ng-i18next="standingsGlossary.clinchedNorthwestDivision">取得西北赛区季后赛资格</span> | </span><span class="legend-icon">p</span> <span class="legend-type"> - <span data-ng-i18next="standingsGlossary.clinchedPacificDivision">取得太平洋赛区季后赛资格</span> | </span><span class="legend-icon">o</span> <span class="legend-type"> - <span data-ng-i18next="standingsGlossary.eliminatedFromPlayoffs">退出季后赛争夺</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="copyright-wrap">
+        <div id="copyright-tab">
+            <div class="copyright-tab">
+                <div class="tab-list">
+                    <span>关于</span>
+                    <a href="/">NBA就职机会</a>
+                </div>
+                <div class="tab-list">
+                    <span>NBA赛事</span>
+                    <a href="/">选秀大会</a>
+                    <a href="/">jr.NBA高中赛</a>
+                </div>
+                <div class="tab-list">
+                    <span>专题</span>
+                    <a href="/">休赛季转会</a>
+                    <a href="/">联盟的骄傲</a>
+                    <a href="/">扣响盛夏</a>
+                </div>
+                <div class="tab-list">
+                    <span>NBA101</span>
+                    <a href="/">NBA历史</a>
+                    <a href="/">NBA50大明星</a>
+                    <a href="/">NBA知识点Q&A</a>
+                </div>
+                <div class="tab-nba-app">
+                    <span>NBA官方应用</span>
+                    <img src="../img/apk_qr.webp">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

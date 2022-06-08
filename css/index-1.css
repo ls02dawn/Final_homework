@@ -1,0 +1,1647 @@
+.m-content>.m-new>.m-title {
+    width: 880px;
+    margin: 25px 25px;
+    border-bottom-style: solid;
+    border-bottom-color: #999999;
+    border-bottom-width: 1px;
+}
+
+.m-content>.m-new>.m-title>span {
+    color: #3D7EC7;
+    font-size: 20px;
+}
+
+.m-content>.m-new>.switch-wrapper {
+    margin-left: 845px;
+    margin-top: -15px;
+}
+
+.m-content>.m-new>.switch-wrapper>span {
+    color: #3D7EC7;
+    font-size: 10px;
+}
+
+.m-content>.m-new>.m-big>span>img {
+    width: 425px;
+    height: 250px;
+    margin-left: 25px;
+}
+
+.m-content>.m-new>.m-big>span>label {
+    color: #ffffff;
+    margin-left: -415px;
+    margin-top: 220px;
+    position: absolute;
+}
+
+.m-content>.m-new>.m-small {
+    margin: 20px 0;
+}
+
+.m-content>.m-new>.m-small>span {
+    margin-left: 25px;
+    width: 290px;
+    position: absolute;
+    border-style: solid;
+    border-color: #999999;
+    border-width: 1px;
+}
+
+.m-content>.m-new>.m-small>span+span {
+    margin-left: 327px;
+}
+
+.m-content>.m-new>.m-small>span+span+span {
+    margin-left: 629px;
+}
+
+.m-content>.m-new>.m-small>span>img {
+    width: 290px;
+    height: 200px;
+}
+
+.m-content>.m-new>.m-small>span>li {
+    text-align: right;
+    font-size: 12px;
+    width: 250px;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 16px;
+}
+
+.m-content>.m-new>.m-small>span>label {
+    line-height: 24px;
+    font-size: 16px;
+    display: inline-block;
+    width: 268px;
+    padding: 10px;
+    height: 85px;
+    border-right: 1px solid #E5E5E5;
+    border-left: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.m-content>.m-new {
+    width: 100%;
+}
+
+.m-content>.m-new>.m-small>span>li>span {
+    margin-left: 110px;
+    font-size: 10px;
+}
+
+
+.m-content>.m-video>.video-title {
+    padding-left: 36px;
+    width: 104px;
+    height: 40px;
+    line-height: 40px;
+    color: #2464b5;
+    font-size: 22px;
+    /*background: url(images/video-title-ico.png) no-repeat 2px 12px;*/
+    float: left;
+}
+
+.m-content>.m-video>.video-tab {
+    padding-top: 7px;
+    width: 360px;
+    height: 33px;
+    float: left;
+}
+
+.m-content>.m-video>.video-tab>.cur {
+    color: #e11647;
+    border-bottom: 3px solid #e11647;
+}
+
+.m-content>.m-video>.video-tab>span {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+    cursor: pointer;
+    float: left;
+}
+
+.m-content>.m-video>.video-more {
+    height: 40px;
+    line-height: 40px;
+    float: right;
+}
+
+.m-content>.m-video>.video-more>a {
+    color: #2464b5;
+    font-size: 16px;
+    display: block;
+}
+
+.m-content>.mod-video-wrap {
+    position: relative;
+    width: 100%;
+    /*height: 100%;*/
+    overflow: hidden;
+    /*display: flex;*/
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur {
+    display: block;
+}
+
+.m-content>.mod-video-wrap>.video-wrap {
+    width: 100%;
+}
+
+.m-content>.mod-video-wrap>.video-wrap .cur>.video-list {
+    padding-top: 10px;
+    width: 25%;
+    height: 490px;
+    float: left;
+    margin-left: 25px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list>a {
+    position: relative;
+    margin-right: 20px;
+    padding-top: 10px;
+    width: 285px;
+    height: 235px;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list>a>.img-wrapper {
+    width: 100%;
+    height: 203px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list>a>.img-wrapper>img {
+    transition: 1s;
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list>a>i {
+    position: absolute;
+    top: 163px;
+    left: 0;
+    padding: 20px 13px 0 0;
+    width: 272px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    text-align: right;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list>a>i>label {
+    height: 30px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list>a>i>.news-title {
+    width: 285px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* float: left; */
+    color: #000000;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: -285px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list1 {
+    padding-top: 10px;
+    width: 1220px;
+    height: 490px;
+    float: left;
+    margin-left: 333px;
+    position: absolute;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list1>a {
+    position: relative;
+    margin-right: 20px;
+    padding-top: 10px;
+    width: 285px;
+    height: 235px;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list1>a>.img-wrapper {
+    width: 100%;
+    height: 203px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list1>a>.img-wrapper>img {
+    transition: 1s;
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list1>a>i {
+    position: absolute;
+    top: 163px;
+    left: 0;
+    padding: 20px 13px 0 0;
+    width: 272px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    text-align: right;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list1>a>i>label {
+    height: 30px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list1>a>i>.news-title {
+    width: 285px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* float: left; */
+    color: #000000;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: -265px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list2 {
+    padding-top: 10px;
+    width: 1220px;
+    height: 490px;
+    float: left;
+    margin-left: 641px;
+    position: absolute;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list2>a {
+    position: relative;
+    margin-right: 20px;
+    padding-top: 10px;
+    width: 285px;
+    height: 235px;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list2>a>.img-wrapper {
+    width: 100%;
+    height: 203px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list2>a>.img-wrapper>img {
+    transition: 1s;
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list2>a>i {
+    position: absolute;
+    top: 163px;
+    left: 0;
+    padding: 20px 13px 0 0;
+    width: 272px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    text-align: right;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list2>a>i>label {
+    height: 30px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list2>a>i>.news-title {
+    width: 285px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* float: left; */
+    color: #000000;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: -285px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list3 {
+    padding-top: 10px;
+    width: 1220px;
+    height: 490px;
+    float: left;
+    margin-left: 950px;
+    position: absolute;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list3>a {
+    position: relative;
+    margin-right: 20px;
+    padding-top: 10px;
+    width: 285px;
+    height: 235px;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list3>a>.img-wrapper {
+    width: 100%;
+    height: 203px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list3>a>.img-wrapper>img {
+    transition: 1s;
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list3>a>i {
+    position: absolute;
+    top: 163px;
+    left: 0;
+    padding: 20px 13px 0 0;
+    width: 272px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    text-align: right;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list3>a>i>label {
+    height: 30px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list3>a>i>.news-title {
+    width: 285px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* float: left; */
+    color: #000000;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: -285px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list4 {
+    padding-top: 10px;
+    width: 1220px;
+    height: 490px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 235px;
+    position: absolute;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list4>a {
+    position: relative;
+    margin-right: 20px;
+    padding-top: 10px;
+    width: 285px;
+    height: 235px;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list4>a>.img-wrapper {
+    width: 100%;
+    height: 203px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list4>a>.img-wrapper>img {
+    transition: 1s;
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list4>a>i {
+    position: absolute;
+    top: 163px;
+    left: 0;
+    padding: 20px 13px 0 0;
+    width: 272px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    text-align: right;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list4>a>i>label {
+    height: 30px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list4>a>i>.news-title {
+    width: 285px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* float: left; */
+    color: #000000;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: -295px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list5 {
+    padding-top: 10px;
+    width: 1220px;
+    height: 490px;
+    float: left;
+    margin-left: 333px;
+    margin-top: 235px;
+    position: absolute;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list5>a {
+    position: relative;
+    margin-right: 20px;
+    padding-top: 10px;
+    width: 285px;
+    height: 235px;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list5>a>.img-wrapper {
+    width: 100%;
+    height: 203px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list5>a>.img-wrapper>img {
+    transition: 1s;
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list5>a>i {
+    position: absolute;
+    top: 163px;
+    left: 0;
+    padding: 20px 13px 0 0;
+    width: 272px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    text-align: right;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list5>a>i>label {
+    height: 30px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list5>a>i>.news-title {
+    width: 285px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* float: left; */
+    color: #000000;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: -275px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list6 {
+    padding-top: 10px;
+    width: 1220px;
+    height: 490px;
+    float: left;
+    margin-left: 641px;
+    margin-top: 235px;
+    position: absolute;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list6>a {
+    position: relative;
+    margin-right: 20px;
+    padding-top: 10px;
+    width: 285px;
+    height: 235px;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list6>a>.img-wrapper {
+    width: 100%;
+    height: 203px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list6>a>.img-wrapper>img {
+    transition: 1s;
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list6>a>i {
+    position: absolute;
+    top: 163px;
+    left: 0;
+    padding: 20px 13px 0 0;
+    width: 272px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    text-align: right;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list6>a>i>label {
+    height: 30px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list6>a>i>.news-title {
+    width: 285px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* float: left; */
+    color: #000000;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: -275px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list7 {
+    padding-top: 10px;
+    width: 1220px;
+    height: 490px;
+    float: left;
+    margin-left: 950px;
+    margin-top: 235px;
+    position: absolute;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list7>a {
+    position: relative;
+    margin-right: 20px;
+    padding-top: 10px;
+    width: 285px;
+    height: 235px;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list7>a>.img-wrapper {
+    width: 100%;
+    height: 203px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list7>a>.img-wrapper>img {
+    transition: 1s;
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list7>a>i {
+    position: absolute;
+    top: 163px;
+    left: 0;
+    padding: 20px 13px 0 0;
+    width: 272px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    text-align: right;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list7>a>i>label {
+    height: 30px;
+}
+
+.m-content>.mod-video-wrap>.video-wrap.cur>.video-list7>a>i>.news-title {
+    width: 285px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* float: left; */
+    color: #000000;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: -285px;
+}
+
+.m-content>.m-people {
+    width: 100%;
+}
+
+.m-content>.m-people>.list-header {
+    border-bottom: 1px solid #ddd;
+    margin: 20px 30px;
+}
+
+.m-content>.m-people>.list-header>.list-header__title {
+    display: inline-block;
+}
+
+.m-content>.m-people>.list-header>.list-header__title>img {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background: url(/media/img/players/sheet_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.m-content>.m-people>.list-header>.list-header__title>.list-header__title--name {
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    vertical-align: bottom;
+    display: inline-block;
+    color: #3464af;
+    font-weight: 900;
+}
+
+.m-content>.m-people>.list-header>.list-header__tab {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 17px;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.m-content>.m-people>.list-header>.list-header__tab>.active {
+    border-bottom: 3px solid red;
+    color: red;
+}
+
+.m-content>.m-people>.list-header>.list-header__tab>.active>.sib-translation-p-r {
+    padding-right: 4px;
+}
+
+.m-content>.m-people>.list-header>.list-header__footer {
+    float: right;
+}
+
+.m-content>.m-people>.list-header>.list-header__footer>a {
+    color: #356da0;
+}
+
+.m-content>.m-people>.m-bd {
+    width: 100%;
+    display: flex;
+}
+
+.m-content>.m-people>.m-bd>div {
+    width: 25%;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard {
+    min-height: 347px;
+    position: relative;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard {
+    min-height: 347px;
+    position: relative;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container {
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader {
+    display: inline-block;
+    width: 20%;
+    min-width: 220px;
+    max-width: 240px;
+    border-right: 1px solid #eee;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-title {
+    margin-left: 15px;
+    height: 25px;
+    line-height: 25px;
+    background: url(img/leader_title.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-title>.sib3-tab {
+    margin-left: 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content {
+    font-weight: 400;
+    letter-spacing: normal;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.no-one {
+    padding: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.no-one-teamlogo {
+    margin-left: 15px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.no-one-teamlogo>a>img {
+    height: 50px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__img {
+    padding: 0 10px 0 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__img>a>img {
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    width: 92px;
+    height: 146px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info {
+    position: absolute;
+    margin: -150px 115px
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info>.pct {
+    font-size: 35px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info>h5 {
+    font-size: 12.25px;
+    margin: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player {
+    margin: 10px 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-headshot {
+    padding: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-headshot>a>img {
+    width: 35px;
+    height: 25px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-info {
+    padding: 0 0 0 5px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.pct {
+    font-size: 18px;
+    text-align: right;
+    padding: 0;
+    position: absolute;
+    margin: -70px 185px;
+}
+
+
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard {
+    min-height: 347px;
+    position: relative;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard {
+    min-height: 347px;
+    position: relative;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container {
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader {
+    display: inline-block;
+    width: 20%;
+    min-width: 220px;
+    max-width: 240px;
+    border-right: 1px solid #eee;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-title {
+    margin-left: 15px;
+    height: 25px;
+    line-height: 25px;
+    background: url(img/leader_title.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-title>.sib3-tab {
+    margin-left: 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content {
+    font-weight: 400;
+    letter-spacing: normal;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.no-one {
+    padding: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.no-one-teamlogo {
+    margin-left: 15px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.no-one-teamlogo>a>img {
+    height: 50px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__img {
+    padding: 0 10px 0 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__img>a>img {
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    width: 92px;
+    height: 146px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info {
+    position: absolute;
+    margin: -150px 115px
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info>.pct {
+    font-size: 35px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info>h5 {
+    font-size: 12.25px;
+    margin: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player {
+    margin: 10px 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-headshot {
+    padding: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-headshot>a>img {
+    width: 35px;
+    height: 25px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-info {
+    padding: 0 0 0 5px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups1>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.pct {
+    font-size: 18px;
+    text-align: right;
+    padding: 0;
+    position: absolute;
+    margin: -70px 170px;
+}
+
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard {
+    min-height: 347px;
+    position: relative;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard {
+    min-height: 347px;
+    position: relative;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container {
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader {
+    display: inline-block;
+    width: 20%;
+    min-width: 220px;
+    max-width: 240px;
+    border-right: 1px solid #eee;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-title {
+    margin-left: 15px;
+    height: 25px;
+    line-height: 25px;
+    background: url(img/leader_title.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-title>.sib3-tab {
+    margin-left: 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content {
+    font-weight: 400;
+    letter-spacing: normal;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.no-one {
+    padding: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.no-one-teamlogo {
+    margin-left: 15px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.no-one-teamlogo>a>img {
+    height: 50px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__img {
+    padding: 0 10px 0 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__img>a>img {
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    width: 92px;
+    height: 146px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info {
+    position: absolute;
+    margin: -150px 115px
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info>.pct {
+    font-size: 35px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info>h5 {
+    font-size: 12.25px;
+    margin: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player {
+    margin: 10px 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-headshot {
+    padding: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-headshot>a>img {
+    width: 35px;
+    height: 25px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-info {
+    padding: 0 0 0 5px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups2>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.pct {
+    font-size: 18px;
+    text-align: right;
+    padding: 0;
+    position: absolute;
+    margin: -70px 170px;
+}
+
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard {
+    min-height: 347px;
+    position: relative;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard {
+    min-height: 347px;
+    position: relative;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container {
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader {
+    display: inline-block;
+    width: 20%;
+    min-width: 220px;
+    max-width: 240px;
+    border-right: 1px solid #eee;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-title {
+    margin-left: 15px;
+    height: 25px;
+    line-height: 25px;
+    background: url(img/leader_title.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-title>.sib3-tab {
+    margin-left: 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content {
+    font-weight: 400;
+    letter-spacing: normal;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.no-one {
+    padding: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.no-one-teamlogo {
+    margin-left: 15px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.no-one-teamlogo>a>img {
+    height: 50px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__img {
+    padding: 0 10px 0 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__img>a>img {
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    width: 92px;
+    height: 146px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info {
+    position: absolute;
+    margin: -150px 115px
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info>.pct {
+    font-size: 35px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info>h5 {
+    font-size: 12.25px;
+    margin: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player {
+    margin: 10px 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-headshot {
+    padding: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-headshot>a>img {
+    width: 35px;
+    height: 25px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-info {
+    padding: 0 0 0 5px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups3>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.pct {
+    font-size: 18px;
+    text-align: right;
+    padding: 0;
+    position: absolute;
+    margin: -70px 170px;
+}
+
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard {
+    min-height: 347px;
+    position: relative;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard {
+    min-height: 347px;
+    position: relative;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container {
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader {
+    display: inline-block;
+    width: 20%;
+    min-width: 220px;
+    max-width: 240px;
+    border-right: 1px solid #eee;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-title {
+    margin-left: 15px;
+    height: 25px;
+    line-height: 25px;
+    background: url(img/leader_title.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-title>.sib3-tab {
+    margin-left: 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content {
+    font-weight: 400;
+    letter-spacing: normal;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.no-one {
+    padding: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.no-one-teamlogo {
+    margin-left: 15px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.no-one-teamlogo>a>img {
+    height: 50px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__img {
+    padding: 0 10px 0 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__img>a>img {
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    width: 92px;
+    height: 146px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info {
+    position: absolute;
+    margin: -150px 115px
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info>.pct {
+    font-size: 35px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.col-12>.row>.no-one-player__info>h5 {
+    font-size: 12.25px;
+    margin: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player {
+    margin: 10px 10px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-headshot {
+    padding: 0;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-headshot>a>img {
+    width: 35px;
+    height: 25px;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.player>.player-info {
+    padding: 0 0 0 5px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.m-content>.m-people>.m-bd>.list-groups4>.desktop-leaderboard>.overflow-container>.sib4-league-leader>.sib4-league-leader-content>.leaders-list>.row>.pct {
+    font-size: 18px;
+    text-align: right;
+    padding: 0;
+    position: absolute;
+    margin: -70px 170px;
+}
+
+.m-content>.special-topic-container {
+    position: relative;
+}
+
+.m-content>.special-topic-container>h2 {
+    border-bottom: 1px solid #E1E1E1;
+    font-size: 22px;
+    color: #2464b5;
+    padding-bottom: 8px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    margin-left: 35px;
+}
+
+.m-content>.special-topic-container>ul {
+    overflow: hidden;
+}
+
+.m-content>.special-topic-container>ul li {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    width: 286px;
+    height: 203px;
+}
+
+.m-content>.special-topic-container>ul img.background-img {
+    width: 100%;
+    height: 100%;
+}
+
+.m-content>.special-topic-container>ul img.bottom-img {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.m-content>.special-topic-container>.survey-container {
+    position: absolute;
+    width: 285px;
+    height: 316px;
+    top: 55px;
+    right: 5px;
+}
+
+.m-content>.special-topic-container>.survey-container>h2 {
+    height: 39px;
+    line-height: 39px;
+    background: #2464b5;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0 12px;
+}
+
+.m-content>.special-topic-container>.survey-container>h2>a {
+    color: #fff;
+    text-shadow: 0 2px 0 #093d79;
+}
+
+.m-content>.special-topic-container>.survey-container>.examine {
+    height: 340px;
+    padding: 20px 20px 20px 10px;
+    border: 1px solid #e8e8e8;
+}
+
+.m-content>.special-topic-container>.survey-container>.examine>.title {
+    font-size: 14px;
+}
+
+.m-content>.special-topic-container>.survey-container>.examine>.title>em {
+    font-style: normal;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.m-content>.special-topic-container>.survey-container>.examine>.examine-con {
+    overflow: hidden;
+    padding: 14px 0 4px 28px;
+}
+
+.m-content>.special-topic-container>.survey-container>.examine>.examine-con>li {
+    margin-bottom: 10px;
+    overflow: hidden;
+    font-size: 14px;
+    padding-left: 2px;
+}
+
+.m-content>.special-topic-container>.survey-container>.examine>.examine-con>li>.ex-option {
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    width: 240px;
+    /* min-width: 130px; */
+    /* max-width: 140px; */
+    /* margin-right: 10px; */
+    overflow: hidden;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.m-content>.special-topic-container>.survey-container>.examine>.examine-con>li>.pro-warp {
+    width: 100px;
+    height: 16px;
+    line-height: 16px;
+    background: #9e9e9e;
+    color: #fff;
+    /* font-weight: bold; */
+    position: relative;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.m-content>.special-topic-container>.survey-container>.examine>.examine-con>li>.pro-warp>.pro-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    z-index: 109;
+    font-size: 12px;
+}
+
+.m-content>.special-topic-container>.survey-container>.examine>.examine-con>li>.pro-warp>.j-percent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 108;
+    height: 16px;
+    line-height: 16px;
+    background: #2a6cb6;
+    display: inline-block;
+}
+
+.m-content>.special-topic-container>.survey-container>.examine>.examine-con>li>.ex-count {
+    height: 16px;
+    line-height: 16px;
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.m-content>.special-topic-container>.survey-container>.examine>.btn-answer {
+    padding-left: 115px;
+}
+
+.m-content>.special-topic-container>.survey-container>.examine>.btn-answer>a {
+    background: #e5e5e5;
+    color: #000;
+}
+
+.m-content>.special-topic-container>.special-topic-rule {
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+}
+
+.m-content>.special-topic-container>.special-topic-rule img {
+    width: 285px;
+    height: 100px;
+}
+
+.m-content>ul {
+    list-style: none;
+}
+
+.m-content>ul#social-media-list>li {
+    float: left;
+    margin: 20px 0;
+    margin-right: 16px;
+    width: 136px;
+    height: 80px;
+    /* border: 1px solid #E6E6E6; */
+    /* border-radius: 4px; */
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+}
+
+.m-content>ul#social-media-list>li>a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.m-content>ul#social-media-list>li a div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 136px;
+    height: 78px;
+    background: #fff;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    z-index: 3;
+}
+
+.m-content>ul#social-media-list>li img {
+    height: 44px;
+    width: 44px;
+    margin-top: 18px;
+    margin-left: 10px;
+    margin-right: 4px;
+    float: left;
+}
+
+.m-content>ul#social-media-list>li a span {
+    color: #000000;
+    font-size: 14px;
+}
+
+.m-content>.nba-partner {
+    width: 100%;
+    clear: both;
+}
+
+.m-content>.nba-partner h3 {
+    width: 1200px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #E1E1E1;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.m-content>.nba-partner>.partners-list {
+    margin-top: 20px;
+    width: 1200px;
+}
+
+.m-content>.nba-partner>.partners-list a {
+    display: inline-block;
+    width: 130px;
+    /* height: 40px; */
+    float: left;
+    margin: 0 10px 20px 10px;
+}
+
+.m-content>.nba-partner>.partners-list a img {
+    width: 100%;
+}
+
+.m-content>#copyright-wrap {
+    width: 100%;
+    height: 415px;
+}
+
+.m-content>#copyright-wrap>#copyright-tab {
+    width: 100%;
+    min-width: 1200px;
+    height: 250px;
+    background: url(./img/efooter-bg.webp) no-repeat center 0 #012f50;
+    margin-top: 320px;
+    margin-left: 25px;
+}
+
+.m-content>#copyright-wrap>#copyright-tab>.copyright-tab {
+    margin: 0 auto;
+    width: 1200px;
+    height: 250px;
+}
+
+.m-content>#copyright-wrap>#copyright-tab>.copyright-tab>.tab-list {
+    width: 210px;
+}
+
+.m-content>#copyright-wrap>#copyright-tab>.copyright-tab span {
+    height: 65px;
+    line-height: 65px;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+}
+
+.m-content>#copyright-wrap>#copyright-tab>.copyright-tab a {
+    color: #fff;
+    margin-bottom: 7px;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+}
+
+.m-content>#copyright-wrap>#copyright-tab>.copyright-tab div {
+    height: 250px;
+    float: left;
+}
+
+.m-content>#copyright-wrap>#copyright-tab>.copyright-tab>.tab-nba-app {
+    width: 180px;
+}
+
+.m-content>#copyright-wrap>#copyright-tab>.copyright-tab>.tab-nba-app span {
+    padding-left: 15px;
+}
+
+.m-content>#copyright-wrap>#copyright-tab>.copyright-tab>.tab-nba-app img {
+    padding-left: 15px;
+    width: 110px;
+    height: 110px;
+}

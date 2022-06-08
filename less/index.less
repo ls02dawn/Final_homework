@@ -1,0 +1,1421 @@
+body {
+    color: rgb(0, 0, 0);
+    background: rgb(246, 246, 246);
+    font: 12px Arial;
+    margin: auto auto;
+    padding: 0;
+    list-style: none;
+    border: none;
+
+    .gray {
+        background: #f5f5f5;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+li,
+ul,
+img {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+}
+
+.header {
+    height: 120px;
+    width: 100%;
+    background: #006bb7;
+
+    .header-wrap {
+        width: 1200px;
+        padding: 0 10px;
+        margin: 0 auto;
+        background: url(../img/header-bg.webp) no-repeat center top;
+        height: auto;
+
+        .header-main {
+            position: relative;
+            height: 80px;
+
+            .header-logo {
+                height: 80px;
+                float: left;
+
+                a {
+                    padding-left: 45px;
+                    padding-top: 20px;
+                    height: 50px;
+                    width: 86px;
+                    color: #fff;
+                    font-size: 38px;
+                    font-weight: bold;
+                    float: left;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+            .header-button {
+                padding-top: 10px;
+                height: 70px;
+                float: right;
+                position: relative;
+                margin-left: 20px;
+
+                a {
+                    img {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        border: none;
+                    }
+                }
+            }
+        }
+
+        .header-menu {
+            padding-left: 30px;
+            height: 40px;
+            width: auto;
+            background: none;
+            position: relative;
+
+            .menu-1 {
+                height: 40px;
+                float: left;
+
+                ul {
+                    margin: 0;
+                    padding: 0;
+
+                    li {
+                        margin-right: 23px;
+                        float: left;
+                        height: 40px;
+
+                        a {
+                            padding: 5px 15px 0 10px;
+                            color: #fff;
+                            font-size: 16px;
+                            background: none;
+                            float: left;
+                            height: 40px;
+
+                            &:hover {
+                                color: #00aeff;
+                            }
+                        }
+
+                        &:hover ul {
+                            display: block;
+                        }
+                    }
+
+                    li:nth-child(1) {
+                        a {
+                            color: #00aeff;
+                        }
+                    }
+
+                    li:nth-child(5) {
+                        a {
+                            background: url(../img/icon_16_arrow_down_gray.webp) no-repeat right 17px;
+                        }
+
+                        .team {
+                            position: absolute;
+                            top: 40px;
+                            left: -5px;
+                            width: 1200px;
+                            height: 440px;
+                            border-bottom: 2px solid #002f50;
+                            background: #fff;
+                            z-index: 999;
+                            display: none;
+
+                            .east-team,
+                            .west-team {
+                                width: 598px;
+                                height: 440px;
+                                float: left;
+                                display: block;
+
+                                .team-title {
+                                    height: 50px;
+                                    line-height: 50px;
+                                    color: #fff;
+                                    font-size: 18px;
+                                    text-align: center;
+                                    background: #002f50;
+                                    width: 100%;
+
+                                }
+
+                                .team-area {
+                                    height: 40px;
+                                    width: 100%;
+
+
+                                    span {
+                                        width: 199px;
+                                        height: 40px;
+                                        line-height: 40px;
+                                        font-size: 14px;
+                                        text-align: center;
+                                        float: left;
+                                    }
+                                }
+
+                                .team-list {
+                                    height: 70px;
+                                    width: 100%;
+                                    display: flex;
+
+                                    a {
+                                        padding: 0;
+                                        width: 33.3333%;
+                                        height: 100%;
+                                        color: #2866b6;
+                                        font-size: 14px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                    }
+                                }
+
+                                li {
+                                    a {
+                                        &:hover {
+                                            background: #e5e5e5;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .east-team {
+                                border-left: 2px solid #002f50;
+
+                                .team-title {
+                                    border-right: 1px solid #072840;
+                                }
+
+                                li {
+                                    border-right: 1px solid #e5e5e5;
+                                }
+                            }
+
+
+                            .west-team {
+                                border-right: 2px solid #002f50;
+
+                                .team-title {
+                                    border-left: 1px solid #072840;
+                                }
+
+                                li {
+                                    border-left: 1px solid #e5e5e5;
+                                }
+                            }
+
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                top: -6px;
+                                left: 380px;
+                                width: 12px;
+                                height: 6px;
+                                background: url(../img/nav-menu-arrow.webp) no-repeat;
+                            }
+                        }
+
+                        &:hover .team {
+                            display: block;
+                        }
+                    }
+
+                    li:nth-child(6) {
+                        a {
+                            background: url(../img/icon_16_arrow_down_gray.webp) no-repeat right 17px;
+                        }
+
+                        ul {
+                            position: absolute;
+                            top: 40px;
+                            left: 430px;
+                            width: 160px;
+                            background: #002f50;
+                            z-index: 999;
+                            display: none;
+
+
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                top: -6px;
+                                left: 20px;
+                                width: 12px;
+                                height: 6px;
+                                background: url(../img/nav-menu-arrow.webp) no-repeat;
+                            }
+
+                            li {
+                                height: 40px;
+
+
+                                a {
+                                    background: none;
+                                    color: #fff;
+                                    padding: 0 10px;
+                                    height: 40px;
+                                    line-height: 40px;
+                                    font-size: 14px;
+                                    display: block;
+                                    width: 140px;
+
+                                    &:hover {
+                                        background: #2464b5;
+                                    }
+                                }
+                            }
+                        }
+
+                        &:hover ul {
+                            display: block;
+                            transition: all 5s;
+                        }
+                    }
+
+                    li:nth-child(7) {
+                        a {
+                            background: url(../img/icon_16_arrow_down_gray.webp) no-repeat right 17px;
+                        }
+
+                        ul {
+                            position: absolute;
+                            top: 40px;
+                            left: 510px;
+                            width: 160px;
+                            background: #002f50;
+                            z-index: 999;
+                            display: none;
+
+
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                top: -6px;
+                                left: 20px;
+                                width: 12px;
+                                height: 6px;
+                                background: url(../img/nav-menu-arrow.webp) no-repeat;
+                            }
+
+                            li {
+                                height: 40px;
+                                margin-right: 23px;
+                                float: left;
+
+
+                                a {
+                                    background: none;
+                                    color: #fff;
+                                    padding: 0 10px;
+                                    height: 40px;
+                                    line-height: 40px;
+                                    font-size: 14px;
+                                    display: block;
+                                    width: 140px;
+
+                                    &:hover {
+                                        background: #2464b5;
+                                    }
+                                }
+                            }
+                        }
+
+                        &:hover ul {
+                            display: block;
+                        }
+                    }
+
+                    li:nth-child(8) {
+                        a {
+                            background: url(../img/icon_16_arrow_down_gray.webp) no-repeat right 17px;
+                        }
+
+                        ul {
+                            position: absolute;
+                            top: 40px;
+                            left: 590px;
+                            width: 160px;
+                            background: #002f50;
+                            z-index: 999;
+                            display: none;
+
+
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                top: -6px;
+                                left: 20px;
+                                width: 12px;
+                                height: 6px;
+                                background: url(../img/nav-menu-arrow.webp) no-repeat;
+                            }
+
+                            li {
+                                height: 40px;
+                                margin-right: 23px;
+                                float: left;
+
+
+                                a {
+                                    background: none;
+                                    color: #fff;
+                                    padding: 0 10px;
+                                    height: 40px;
+                                    line-height: 40px;
+                                    font-size: 14px;
+                                    display: block;
+                                    width: 140px;
+
+                                    &:hover {
+                                        background: #2464b5;
+                                    }
+                                }
+                            }
+                        }
+
+                        &:hover ul {
+                            display: block;
+                        }
+                    }
+
+                    li:nth-child(9) {
+                        a {
+                            background: url(../img/icon_16_arrow_down_gray.webp) no-repeat right 17px;
+                        }
+
+                        ul {
+                            position: absolute;
+                            top: 40px;
+                            left: 670px;
+                            width: 160px;
+                            background: #002f50;
+                            z-index: 999;
+                            display: none;
+
+
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                top: -6px;
+                                left: 20px;
+                                width: 12px;
+                                height: 6px;
+                                background: url(../img/nav-menu-arrow.webp) no-repeat;
+                            }
+
+                            li {
+                                height: 40px;
+                                margin-right: 23px;
+                                float: left;
+
+
+                                a {
+                                    background: none;
+                                    color: #fff;
+                                    padding: 0 10px;
+                                    height: 40px;
+                                    line-height: 40px;
+                                    font-size: 14px;
+                                    display: block;
+                                    width: 140px;
+
+                                    &:hover {
+                                        background: #2464b5;
+                                    }
+                                }
+                            }
+                        }
+
+                        &:hover ul {
+                            display: block;
+                        }
+                    }
+
+                    li:nth-child(10) {
+                        a {
+                            background: url(../img/icon_16_arrow_down_gray.webp) no-repeat right 17px;
+                        }
+
+                        ul {
+                            position: absolute;
+                            top: 40px;
+                            left: 750px;
+                            width: 160px;
+                            background: #002f50;
+                            z-index: 999;
+                            display: none;
+
+
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                top: -6px;
+                                left: 20px;
+                                width: 12px;
+                                height: 6px;
+                                background: url(../img/nav-menu-arrow.webp) no-repeat;
+                            }
+
+                            li {
+                                height: 40px;
+                                margin-right: 23px;
+                                float: left;
+
+
+                                a {
+                                    background: none;
+                                    color: #fff;
+                                    padding: 0 10px;
+                                    height: 40px;
+                                    line-height: 40px;
+                                    font-size: 14px;
+                                    display: block;
+                                    width: 140px;
+
+                                    &:hover {
+                                        background: #2464b5;
+                                    }
+                                }
+                            }
+                        }
+
+                        &:hover ul {
+                            display: block;
+                        }
+                    }
+                }
+            }
+
+            .menu-2 {
+                padding-top: 3px;
+                float: right;
+                position: relative;
+
+                &:hover .user-menu {
+                    display: block;
+                }
+
+                .user-head {
+                    height: 30px;
+                    width: 30px;
+
+                    img {
+                        width: 30px;
+                        height: 30px;
+                        cursor: pointer;
+                    }
+                }
+
+                .user-menu {
+                    z-index: 1;
+                    position: absolute;
+                    top: 28px;
+                    right: -10px;
+                    padding: 0 10px;
+                    width: 140px;
+                    height: 80px;
+                    background: #002f50;
+                    display: none;
+
+                    .user-info {
+                        height: 44px;
+                        line-height: 44px;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        color: #fff;
+                    }
+
+                    .user-login {
+                        height: 36px;
+
+                        span {
+                            height: 26px;
+                            line-height: 26px;
+                            color: #fff;
+                            text-align: center;
+                            border-radius: 15px;
+                            background: #0062A7;
+                            cursor: pointer;
+                            display: block;
+
+                            &:hover {
+                                background: #0079cd;
+                            }
+                        }
+                    }
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        top: -6px;
+                        right: 19px;
+                        width: 12px;
+                        height: 6px;
+                        background: url(../img/nav-menu-arrow.webp) no-repeat;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #2464b5;
+    z-index: 999;
+    display: none;
+
+    .fix {
+        margin: 0 auto;
+        padding-left: 0;
+        width: 1200px;
+        height: 50px;
+        position: relative;
+
+        .fix-1 {
+            margin-right: 30px;
+            width: 110px;
+            height: 50px;
+            display: block;
+            float: left;
+
+            a {
+                img {
+                    width: 110px;
+                }
+            }
+        }
+
+        .fix-2 {
+            height: 50px;
+            float: left;
+
+            ul {
+                margin: 0;
+                padding: 0;
+
+                li {
+                    margin-right: 23px;
+                    float: left;
+                    height: 50px;
+
+                    a {
+                        padding: 12px 15px 0 10px;
+                        color: #fff;
+                        font-size: 16px;
+                        background: none;
+                        float: left;
+                        height: 38px;
+
+                        &:hover {
+                            color: #00aeff;
+                        }
+                    }
+
+                    &:hover ul {
+                        display: block;
+                    }
+                }
+
+                li:nth-child(1) {
+                    a {
+                        color: #00aeff;
+                    }
+                }
+
+                li:nth-child(5) {
+                    a {
+                        background: url(../img/icon_16_arrow_down_gray.webp) no-repeat right 24px;
+                    }
+
+                    .team {
+                        position: absolute;
+                        top: 50px;
+                        left: 0px;
+                        width: 1200px;
+                        height: 440px;
+                        border-bottom: 2px solid #002f50;
+                        background: #fff;
+                        z-index: 999;
+                        display: none;
+
+                        .east-team,
+                        .west-team {
+                            width: 598px;
+                            height: 440px;
+                            float: left;
+                            display: block;
+
+                            .team-title {
+                                height: 50px;
+                                line-height: 50px;
+                                color: #fff;
+                                font-size: 18px;
+                                text-align: center;
+                                background: #002f50;
+                                width: 100%;
+
+                            }
+
+                            .team-area {
+                                height: 40px;
+                                width: 100%;
+
+
+                                span {
+                                    width: 199px;
+                                    height: 40px;
+                                    line-height: 40px;
+                                    font-size: 14px;
+                                    text-align: center;
+                                    float: left;
+                                }
+                            }
+
+                            .team-list {
+                                height: 70px;
+                                width: 100%;
+                                display: flex;
+
+
+                                a {
+                                    padding: 0;
+                                    width: 33.3333%;
+                                    height: 100%;
+                                    color: #2866b6;
+                                    font-size: 14px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                            }
+
+                            li {
+                                a {
+                                    &:hover {
+                                        background: #e5e5e5;
+                                    }
+                                }
+                            }
+                        }
+
+                        .east-team {
+                            border-left: 2px solid #002f50;
+
+                            .team-title {
+                                border-right: 1px solid #072840;
+                            }
+
+                            li {
+                                border-right: 1px solid #e5e5e5;
+                            }
+                        }
+
+
+                        .west-team {
+                            border-right: 2px solid #002f50;
+
+                            .team-title {
+                                border-left: 1px solid #072840;
+                            }
+
+                            li {
+                                border-left: 1px solid #e5e5e5;
+                            }
+                        }
+
+                        &:before {
+                            content: '';
+                            position: absolute;
+                            top: -6px;
+                            left: 380px;
+                            width: 12px;
+                            height: 6px;
+                            background: url(../img/nav-menu-arrow.webp) no-repeat;
+                            left: 480px;
+                        }
+                    }
+
+                    &:hover .team {
+                        display: block;
+                    }
+                }
+
+                li:nth-child(6) {
+                    a {
+                        background: url(../img/icon_16_arrow_down_gray.webp) no-repeat right 24px;
+                    }
+
+                    ul {
+                        position: absolute;
+                        top: 50px;
+                        left: 540px;
+                        width: 160px;
+                        background: #002f50;
+                        z-index: 999;
+                        display: none;
+
+
+                        &:before {
+                            content: '';
+                            position: absolute;
+                            top: -6px;
+                            left: 20px;
+                            width: 12px;
+                            height: 6px;
+                            background: url(../img/nav-menu-arrow.webp) no-repeat;
+                        }
+
+                        li {
+                            height: 40px;
+
+
+                            a {
+                                background: none;
+                                color: #fff;
+                                padding: 0 10px;
+                                height: 40px;
+                                line-height: 40px;
+                                font-size: 14px;
+                                display: block;
+                                width: 140px;
+
+                                &:hover {
+                                    background: #2464b5;
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover ul {
+                        display: block;
+                        transition: all 5s;
+                    }
+                }
+
+                li:nth-child(7) {
+                    a {
+                        background: url(../img/icon_16_arrow_down_gray.webp) no-repeat right 24px;
+                    }
+
+                    ul {
+                        position: absolute;
+                        top: 50px;
+                        left: 620px;
+                        width: 160px;
+                        background: #002f50;
+                        z-index: 999;
+                        display: none;
+
+
+                        &:before {
+                            content: '';
+                            position: absolute;
+                            top: -6px;
+                            left: 20px;
+                            width: 12px;
+                            height: 6px;
+                            background: url(../img/nav-menu-arrow.webp) no-repeat;
+                        }
+
+                        li {
+                            height: 40px;
+                            margin-right: 23px;
+                            float: left;
+
+
+                            a {
+                                background: none;
+                                color: #fff;
+                                padding: 0 10px;
+                                height: 40px;
+                                line-height: 40px;
+                                font-size: 14px;
+                                display: block;
+                                width: 140px;
+
+                                &:hover {
+                                    background: #2464b5;
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover ul {
+                        display: block;
+                    }
+                }
+
+                li:nth-child(8) {
+                    a {
+                        background: url(../img/icon_16_arrow_down_gray.webp) no-repeat right 24px;
+                    }
+
+                    ul {
+                        position: absolute;
+                        top: 50px;
+                        left: 700px;
+                        width: 160px;
+                        background: #002f50;
+                        z-index: 999;
+                        display: none;
+
+
+                        &:before {
+                            content: '';
+                            position: absolute;
+                            top: -6px;
+                            left: 20px;
+                            width: 12px;
+                            height: 6px;
+                            background: url(../img/nav-menu-arrow.webp) no-repeat;
+                        }
+
+                        li {
+                            height: 40px;
+                            margin-right: 23px;
+                            float: left;
+
+
+                            a {
+                                background: none;
+                                color: #fff;
+                                padding: 0 10px;
+                                height: 40px;
+                                line-height: 40px;
+                                font-size: 14px;
+                                display: block;
+                                width: 140px;
+
+                                &:hover {
+                                    background: #2464b5;
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover ul {
+                        display: block;
+                    }
+                }
+
+                li:nth-child(9) {
+                    a {
+                        background: url(../img/icon_16_arrow_down_gray.webp) no-repeat right 24px;
+                    }
+
+                    ul {
+                        position: absolute;
+                        top: 50px;
+                        left: 780px;
+                        width: 160px;
+                        background: #002f50;
+                        z-index: 999;
+                        display: none;
+
+
+                        &:before {
+                            content: '';
+                            position: absolute;
+                            top: -6px;
+                            left: 20px;
+                            width: 12px;
+                            height: 6px;
+                            background: url(../img/nav-menu-arrow.webp) no-repeat;
+                        }
+
+                        li {
+                            height: 40px;
+                            margin-right: 23px;
+                            float: left;
+
+
+                            a {
+                                background: none;
+                                color: #fff;
+                                padding: 0 10px;
+                                height: 40px;
+                                line-height: 40px;
+                                font-size: 14px;
+                                display: block;
+                                width: 140px;
+
+                                &:hover {
+                                    background: #2464b5;
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover ul {
+                        display: block;
+                    }
+                }
+
+                li:nth-child(10) {
+                    a {
+                        background: url(../img/icon_16_arrow_down_gray.webp) no-repeat right 24px;
+                    }
+
+                    ul {
+                        position: absolute;
+                        top: 50px;
+                        left: 860p;
+                        width: 160px;
+                        background: #002f50;
+                        z-index: 999;
+                        display: none;
+
+
+                        &:before {
+                            content: '';
+                            position: absolute;
+                            top: -6px;
+                            left: 20px;
+                            width: 12px;
+                            height: 6px;
+                            background: url(../img/nav-menu-arrow.webp) no-repeat;
+                        }
+
+                        li {
+                            height: 40px;
+                            margin-right: 23px;
+                            float: left;
+
+
+                            a {
+                                background: none;
+                                color: #fff;
+                                padding: 0 10px;
+                                height: 40px;
+                                line-height: 40px;
+                                font-size: 14px;
+                                display: block;
+                                width: 140px;
+
+                                &:hover {
+                                    background: #2464b5;
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover ul {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        .fix-3 {
+            padding-top: 10px;
+            height: 40px;
+            float: right;
+            position: relative;
+
+            &:hover .user-menu {
+                display: block;
+            }
+
+            .user-head {
+                height: 30px;
+                width: 30px;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                    cursor: pointer;
+                }
+            }
+
+            .user-menu {
+                z-index: 1;
+                position: absolute;
+                top: 38px;
+                right: -10px;
+                padding: 0 10px;
+                width: 140px;
+                height: 80px;
+                background: #002f50;
+                display: none;
+
+                .user-info {
+                    height: 44px;
+                    line-height: 44px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    color: #fff;
+                }
+
+                .user-login {
+                    height: 36px;
+
+                    span {
+                        height: 26px;
+                        line-height: 26px;
+                        color: #fff;
+                        text-align: center;
+                        border-radius: 15px;
+                        background: #0062A7;
+                        cursor: pointer;
+                        display: block;
+
+                        &:hover {
+                            background: #0079cd;
+                        }
+                    }
+                }
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: -6px;
+                    right: 19px;
+                    width: 12px;
+                    height: 6px;
+                    background: url(../img/nav-menu-arrow.webp) no-repeat;
+                }
+            }
+        }
+    }
+}
+
+.maincontent {
+    margin: auto auto;
+    width: 100%;
+    background: url(../img/bg.webp);
+
+    .m-content {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 15px 10px;
+        background: #fff;
+
+        .m-information {
+            margin-top: 15px;
+            height: 330px;
+
+            .m-img1 {
+                float: left;
+                position: relative;
+                width: 510px;
+                height: 330px;
+                overflow: hidden;
+            }
+
+            img {
+                height: 330px;
+            }
+
+            .m-quickly {
+                margin: 0 10px 0 20px;
+                width: 360px;
+                height: 330px;
+                overflow: hidden;
+                float: left;
+
+                ul {
+                    margin-top: -10px;
+
+                    li {
+                        height: 87px;
+                        border-bottom: 1px solid #e5e5e5;
+
+                        a {
+                            padding: 10px 0;
+                            height: 67px;
+                            font-size: 14px;
+                            display: block;
+                            color: #14171a;
+                            text-decoration: none;
+                            outline: none;
+
+                            &:hover {
+                                color: #2464B5;
+                            }
+
+                            .m-img2 {
+                                margin-right: 10px;
+                                width: 92px;
+                                height: 67px;
+                                display: flex;
+                                justify-content: center;
+                                overflow: hidden;
+                                float: left;
+
+                                img {
+                                    width: auto;
+                                    height: 67px;
+                                }
+                            }
+
+                            i {
+                                margin-top: 10px;
+                                width: 258px;
+                                font-style: normal;
+                                float: left;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .m-right {
+                width: 300px;
+                float: left;
+
+                .m-title {
+                    padding-left: 26px;
+                    height: 40px;
+                    line-height: 40px;
+                    color: #fff;
+                    font-size: 20px;
+                    background: url(../img/impnews-bg.webp) no-repeat;
+                }
+
+                .m-notice {
+                    padding-top: 5px;
+                    height: 285px;
+                    overflow: hidden;
+                    background: #fafafa;
+
+                    ul {
+                        li {
+                            line-height: 28px;
+
+                            a {
+                                padding: 0 12px;
+                                font-size: 14px;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                display: block;
+                                color: #14171a;
+                                text-decoration: none;
+                                outline: none;
+
+                                &:hover {
+                                    color: #2464B5;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .m-new {
+            margin-top: 15px;
+            //height: 740px;
+            float: left;
+            background: #fff;
+            // width: 900px;
+
+            .m-title {
+                width: 880px;
+                position: relative;
+                padding-right: 10px;
+                height: 39px;
+                line-height: 39px;
+                font-size: 16px;
+                font-weight: 400;
+                border-bottom: 1px solid #E5E5E5;
+                z-index: 103;
+                background: #fff;
+            }
+
+            .m-more {
+                width: 884px;
+                height: 30px;
+                line-height: 30px;
+                color: #2464B5;
+                font-size: 14px;
+                text-align: center;
+                background: #F0F0F0;
+                display: block;
+                cursor: pointer;
+                margin-top: 355px;
+                margin-left: 25px;
+
+                img:nth-child(2) {
+                    position: absolute;
+                    margin-top: 8px;
+                    margin-left: 10px;
+                }
+
+
+                img:nth-child(3) {
+                    position: absolute;
+                    margin-top: 8px;
+                    margin-left: 10px;
+                    display: none;
+                }
+
+                &:hover {
+                    background: #2464B5;
+                    color: #fff;
+                }
+
+                &:hover img:nth-child(2) {
+                    display: none;
+                }
+
+                &:hover img:nth-child(3) {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    #copyright-wrap {
+        width: 100%;
+        min-width: 1200px;
+        height: 250px;
+        background: url(../img/footer-bg.webp) no-repeat center 0 #012f50;
+        float: left;
+
+        #copyright-tab {
+            margin: 0 auto;
+            width: 1200px;
+            height: 250px;
+
+            div {
+                height: 250px;
+                float: left;
+            }
+
+            .tab-list {
+                width: 210px;
+            }
+
+            span {
+                height: 65px;
+                line-height: 65px;
+                color: #fff;
+                font-size: 18px;
+                display: block;
+            }
+
+            a {
+                color: #fff;
+                margin-bottom: 7px;
+                font-size: 14px;
+                display: block;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .tab-nba-app {
+                width: 180px;
+
+                span,
+                img {
+                    padding-left: 15px;
+                }
+
+                img {
+                    width: 110px;
+                    height: 110px
+                }
+            }
+        }
+    }
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+
+    div {
+        width: 100%;
+        display: flex;
+
+        div {
+            width: 25%;
+
+            a {
+                position: relative;
+                margin-right: 20px;
+                padding-top: 10px;
+                width: 285px;
+                height: 235px;
+                float: left;
+                color: #14171a;
+                text-decoration: none;
+                outline: none;
+
+                &:hover {
+                    color: #4E75BA;
+                }
+
+                .img-wrapper {
+                    width: 100%;
+                    height: 203px;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                i {
+                    position: absolute;
+                    top: 163px;
+                    left: 0;
+                    padding: 20px 13px 0 0;
+                    width: 272px;
+                    height: 30px;
+                    color: #fff;
+                    font-size: 14px;
+                    font-style: normal;
+                    text-align: right;
+                    background: url(../img/mask-bg.webp) no-repeat;
+
+                    b {
+                        width: 30px;
+                        height: 30px;
+                        background: url(../img/icon_16_video_white.webp) no-repeat 10px 3px;
+                        float: left;
+                    }
+                }
+
+                .news-title {
+                    width: 285px;
+                    height: 32px;
+                    line-height: 32px;
+                    font-size: 14px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    float: left;
+                }
+            }
+        }
+    }
+}
